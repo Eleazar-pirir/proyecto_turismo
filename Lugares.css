@@ -1,0 +1,189 @@
+body{
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    opacity: 0.9;
+    font-weight: bold;
+    background-color: rgb(247, 225, 166);
+    color: black;
+}
+
+.barra-nav{
+    background-color: rgb(96, 189, 93);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 7vh;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li{
+    font-size: 27px;
+    list-style: none;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: rgb(23, 148, 23);
+    padding: 5px;
+    border-radius: 20%;
+}
+
+.portada {
+  background-image:url(C.jpeg);
+  background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(C.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portada h2 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+
+.Lugar-card img{
+    width: 250px;
+    height: 25vh;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: block
+}
+
+.Lugar-card h3{
+    font-size: 23px;
+    text-align: center;
+}
+
+.Lugar-card p{
+     text-align: justify;
+     line-height: 1.6;
+}
+
+
+.Lugar-card{
+  width: 350px;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #f5e4da;
+  box-shadow: 0 10px 11px rgb(65, 63, 63);
+  text-align: justify;
+  margin: 20px auto;
+  transform: 0.5;
+}
+
+.Frase-card p{
+    width: 1285px;
+    border-radius: 15px;
+    background-color: rgb(188, 219, 218);
+    text-align: justify;
+    padding: 20px;
+    background-position: center;
+    box-shadow: 0 10px 11px rgb(58, 57, 57);
+}
+
+.contenedor2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.Fotos1-card{
+    width: 250px;
+    height: 180px;
+    box-shadow: 0 10px 11px black;
+    border-radius: 15px;
+    padding: 20px;
+    background-image: url(Foto1.1.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin: 20px auto;
+}
+
+.Fotos2-card{
+    width: 250px;
+    height: 180px;
+    box-shadow: 0 10px 11px black;
+    border-radius: 15px;
+    padding: 20px;
+    background-image: url(Foto2.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin: 20px auto;
+}
+
+    
+.Fotos3-card{
+    width: 250px;
+    height: 180px;
+    box-shadow: 0 10px 11px black;
+    border-radius: 15px;
+    padding: 20px;
+    background-image: url(Foto3.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin: 20px auto;
+}
+
+.Fotos4-card{
+    width: 250px;
+    height: 180px;
+    box-shadow: 0 10px 11px black;
+    border-radius: 15px;
+    padding: 20px;
+    background-image: url(Foto4.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin: 20px auto;
+}
+
+.Fotos1-card:hover{
+    transform: scale(1.03);
+    box-shadow: 0 15px 25px black;
+}
+
+.Fotos2-card:hover{
+    transform: scale(1.03);
+    box-shadow: 0 15px 25px black;
+}
+
+.Fotos3-card:hover{
+    transform: scale(1.03);
+    box-shadow: 0 15px 25px black;
+}
+
+.Fotos4-card:hover{
+    transform: scale(1.03);
+    box-shadow: 0 15px 25px black;
+}

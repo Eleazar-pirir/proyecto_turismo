@@ -53,3 +53,27 @@ h4{
 
 }
 
+.contenedor-boton {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+ }
+
+ .btn-Click{
+    height: 42%;
+    background-color: rgb(65, 160, 21);
+    color: white;
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgb(130, 161, 120);
+ }
+
+.btn-Click::after{
+    background-color: rgb(108, 192, 82);
+ }
+
