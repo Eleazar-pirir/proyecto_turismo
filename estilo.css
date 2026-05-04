@@ -66,7 +66,10 @@ h4{
 
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> fb320c2643619675c97673a844c3a13e008473ed
 .contenedor-1{
     display: flex;
     justify-content: center;
@@ -94,6 +97,7 @@ h4{
     display: flex;
     justify-content: center;
     border-radius: 25%; 
+<<<<<<< HEAD
 }
 
 .contenedor-boton {
@@ -120,3 +124,6 @@ h4{
     background-color: rgb(108, 192, 82);
  }
 
+=======
+}
+>>>>>>> fb320c2643619675c97673a844c3a13e008473ed
