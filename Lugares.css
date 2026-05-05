@@ -170,20 +170,20 @@ li a:hover{
 
 .Fotos1-card:hover{
     transform: scale(1.03);
-    box-shadow: 0 15px 25px black;
+    box-shadow: 0 15px 25px rgb(80, 75, 75);
 }
 
 .Fotos2-card:hover{
     transform: scale(1.03);
-    box-shadow: 0 15px 25px black;
+    box-shadow: 0 15px 25px rgb(77, 74, 74);
 }
 
 .Fotos3-card:hover{
     transform: scale(1.03);
-    box-shadow: 0 15px 25px black;
+    box-shadow: 0 15px 25px rgb(97, 91, 91);
 }
 
 .Fotos4-card:hover{
     transform: scale(1.03);
-    box-shadow: 0 15px 25px black;
+    box-shadow: 0 15px 25px rgb(70, 65, 65);
 }

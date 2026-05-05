@@ -10,6 +10,13 @@ h1{
     background-color: rgb(247, 225, 166);
     color: black;
 }
+h2{
+    text-align: center;
+    font-size: 50px;
+    opacity: 0.9;
+    font-weight: bold;
+    color: black;
+}
 
 .barra-nav{
     background-color: rgb(96, 189, 93);
@@ -70,14 +77,73 @@ li a:hover{
   width: 280px;
   border-radius: 15px;
   padding: 20px;
-  background-color: #c6fdfd;
+  background-color: #b8e7f5;
   box-shadow: 0 10px 11px rgb(65, 63, 63);
   text-align: justify;
   margin: 20px auto;
   transform: 0.5;
 }
 
+.contenedor2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    position: relative;
+}
 
+.Comida-card img{
+    width: 250px;
+    height: 25vh;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: block
+}
 
+.Comida-card h3{
+    font-size: 23px;
+    text-align: center;
+}
 
+.Comida-card p{
+     text-align: justify;
+     line-height: 1.6;
+}
 
+.Comida-card{
+  width: 600px;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #d39860;
+  box-shadow: 0 10px 11px rgb(65, 63, 63);
+  text-align: justify;
+  margin: 20px auto;
+  transform: 0.5;
+}
+.Bebidas-card img{
+    width: 150px;
+    height: 30vh;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: block
+}
+
+.Bebidas-card h3{
+    font-size: 23px;
+    text-align: center;
+}
+
+.Bebidas-card p{
+     text-align: justify;
+     line-height: 1.6;
+}
+
+.Bebidas-card{
+  width: 600px;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #d39860;
+  box-shadow: 0 10px 11px rgb(65, 63, 63);
+  text-align: justify;
+  margin: 20px auto;
+  transform: 0.5;
+}
